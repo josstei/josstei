@@ -72,7 +72,7 @@ Unified task launcher for file management, project ops, and Git workflows within
 
 ## Stats
 
-<p>
+<p align="center">
   <img src="https://streak-stats.demolab.com/?user=josstei&background=00000000&border=0e2840&stroke=0e2840&ring=ff7356&fire=ff7356&currStreakNum=4fc9c9&sideNums=5dd9d9&currStreakLabel=e8dcc8&sideLabels=a8b8c8&dates=5a7a8a&hide_border=false" alt="GitHub Streak" height="170" />
 </p>
 
