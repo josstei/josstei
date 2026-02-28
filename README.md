@@ -1,10 +1,12 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4fc9c9,100:ff7356&height=200&text=I'm%20Josstei&fontSize=50&fontColor=e8dcc8&fontAlignY=35&desc=software%20engineer%20%7C%20agent%20systems%20%7C%20neovim%20%7C%20retro%20gaming&descSize=16&descColor=c8d8e8&descAlignY=55&animation=fadeIn" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4fc9c9,100:ff7356&height=200&text=I'm%20Josstei&fontSize=50&fontColor=e8dcc8&fontAlignY=35&desc=@josstei_dev&descSize=16&descColor=c8d8e8&descAlignY=55&animation=fadeIn" width="100%" alt="Header" />
 <p align="center">
   <img src="https://skillicons.dev/icons?i=lua,js,ts,java,react,spring,maven,mysql&theme=dark&perline=8" width="410" alt="Tech Stack Row 1" /><br/>
   <img src="https://skillicons.dev/icons?i=neovim,vim,electron,astro,nodejs,git,github&theme=dark&perline=7" width="360" alt="Tech Stack Row 2" />
 </p>
 <p align="center">
   <a href="https://x.com/josstei_dev"><img src="https://img.shields.io/badge/𝕏-josstei__dev-041220?style=flat-square&logo=x&logoColor=e8dcc8&labelColor=041220&color=0e2840" alt="Twitter" /></a>
+  <a href="https://www.reddit.com/user/josstei/"><img src="https://img.shields.io/badge/reddit-u/josstei-041220?style=flat-square&logo=reddit&logoColor=ff7356&labelColor=041220&color=0e2840" alt="Reddit" /></a>
+  <a href="https://ko-fi.com/josstei"><img src="https://img.shields.io/badge/ko--fi-josstei-041220?style=flat-square&logo=ko-fi&logoColor=ff7356&labelColor=041220&color=0e2840" alt="Ko-fi" /></a>
   <a href="https://prismgb.com"><img src="https://img.shields.io/badge/web-prismgb.com-041220?style=flat-square&logo=safari&logoColor=4fc9c9&labelColor=041220&color=0e2840" alt="Website" /></a>
 </p>
 
