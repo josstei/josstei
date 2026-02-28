@@ -7,7 +7,6 @@
   <a href="https://x.com/josstei_dev"><img src="https://img.shields.io/badge/𝕏-josstei__dev-041220?style=flat-square&logo=x&logoColor=e8dcc8&labelColor=041220&color=0e2840" alt="Twitter" /></a>
   <a href="https://www.reddit.com/user/josstei/"><img src="https://img.shields.io/badge/reddit-u/josstei-041220?style=flat-square&logo=reddit&logoColor=ff7356&labelColor=041220&color=0e2840" alt="Reddit" /></a>
   <a href="https://ko-fi.com/josstei"><img src="https://img.shields.io/badge/ko--fi-josstei-041220?style=flat-square&logo=ko-fi&logoColor=ff7356&labelColor=041220&color=0e2840" alt="Ko-fi" /></a>
-  <a href="https://prismgb.com"><img src="https://img.shields.io/badge/web-prismgb.com-041220?style=flat-square&logo=safari&logoColor=4fc9c9&labelColor=041220&color=0e2840" alt="Website" /></a>
 </p>
 
 I love building applications and tooling that others can enjoy and use — from multi-agent platforms to retro gaming apps to Neovim plugins. I believe software should just work, and that clean, structured design is how you get there: performance, maintainability, and scalability by default.
