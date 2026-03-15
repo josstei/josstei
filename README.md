@@ -1,13 +1,13 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:050A14%2C50:5E81F4%2C100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=C8C8E0&fontAlignY=35&desc=@josstei_dev&descSize=16&descColor=A8A8C8&descAlignY=55&animation=fadeIn" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff%2C50:5E81F4%2C100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=050A14&fontAlignY=35&desc=@josstei_dev&descSize=16&descColor=0E1830&descAlignY=55&animation=fadeIn" width="100%" alt="Header" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:050A14%2C50:5E81F4%2C100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=C8C8E0&fontAlignY=35&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff%2C50:5E81F4%2C100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=050A14&fontAlignY=35&animation=fadeIn" width="100%" alt="Header" />
 </picture>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=lua,js,ts,java,react,spring,maven,mysql&theme=dark&perline=8" width="410" alt="Tech Stack Row 1" /><br/>
   <img src="https://skillicons.dev/icons?i=neovim,vim,electron,astro,nodejs,git,github&theme=dark&perline=7" width="360" alt="Tech Stack Row 2" />
 </p>
 <p align="center">
-  <a href="https://x.com/josstei_dev"><img src="https://img.shields.io/badge/𝕏-josstei__dev-050A14?style=flat-square&logo=x&logoColor=C8C8E0&labelColor=050A14&color=0E1830" alt="Twitter" /></a>
+  <a href="https://x.com/josstei_dev"><img src="https://img.shields.io/badge/-josstei__dev-050A14?style=flat-square&logo=x&logoColor=C8C8E0&labelColor=050A14&color=0E1830" alt="Twitter" /></a>
   <a href="https://www.reddit.com/user/josstei/"><img src="https://img.shields.io/badge/reddit-u/josstei-050A14?style=flat-square&logo=reddit&logoColor=ff4500&labelColor=050A14&color=0E1830" alt="Reddit" /></a>
   <a href="https://ko-fi.com/josstei"><img src="https://img.shields.io/badge/ko--fi-josstei-050A14?style=flat-square&logo=ko-fi&logoColor=ff5e5b&labelColor=050A14&color=0E1830" alt="Ko-fi" /></a>
 </p>
