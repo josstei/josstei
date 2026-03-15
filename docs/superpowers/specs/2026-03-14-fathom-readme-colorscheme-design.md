@@ -42,7 +42,7 @@ Uses `<picture>` + `<source media="(prefers-color-scheme: ...)">` to serve diffe
 - Font color: `050A14`
 - Desc color: `0E1830`
 
-Both: type=waving, height=200, text="I'm Josstei", desc="@josstei_dev", animation=fadeIn.
+Both: type=waving, height=200, text="I'm Josstei", desc="@josstei_dev", fontSize=50, fontAlignY=35, descSize=16, descAlignY=55, animation=fadeIn.
 
 ### 2. Footer Banner (capsule-render)
 
@@ -114,16 +114,16 @@ Single URL with transparent background. No `<picture>` tag needed.
 ## Implementation Notes
 
 - The `<picture>` tag approach uses GitHub's native support for `prefers-color-scheme` media queries in markdown
-- Pattern for each theme-adaptive element:
+- Pattern for each theme-adaptive element (GitHub's canonical single-`<source>` pattern):
   ```html
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="DARK_URL" />
-    <source media="(prefers-color-scheme: light)" srcset="LIGHT_URL" />
-    <img src="DARK_URL" alt="..." />
+    <img src="LIGHT_URL" alt="..." />
   </picture>
   ```
-- The `<img>` fallback uses the dark variant (GitHub defaults to dark for most users)
+- The `<img>` fallback uses the light variant — more readable in non-supporting contexts (email clients, RSS readers)
 - Total `<picture>` blocks: 2 (header + footer) + 9 (star badges) = 11
 - Social badges remain simple `<img>` tags — dark pills read well on both backgrounds
 - Streak stats remain a single `<img>` tag — accent colors have enough saturation for both themes
+- Accepted tradeoff: streak label colors (`C8C8E0`, `A8A8C8`) are light-valued and will have reduced contrast on GitHub's white background. The dark theme appearance is prioritized; on light theme the numbers and ring (high-saturation blues/cyan) remain clearly readable while labels are de-emphasized
 - All text content (markdown headings, paragraphs, descriptions) is unstyled and inherits GitHub's theme natively — no changes needed
