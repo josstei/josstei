@@ -1,6 +1,7 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const { buildRepoCard } = require('./generate-readme.js');
+const { groupReposBySection } = require('./generate-readme.js');
 
 describe('buildRepoCard', () => {
   it('renders a card with description', () => {
@@ -31,5 +32,53 @@ describe('buildRepoCard', () => {
     assert.ok(html.includes('color=0E1830'));
     assert.ok(html.includes('labelColor=050A14'));
     assert.ok(html.includes('logo=data:image/svg%2Bxml;base64,'));
+  });
+});
+
+describe('groupReposBySection', () => {
+  it('groups repos by topic tag', () => {
+    const repos = [
+      { name: 'a', topics: ['ai-tooling'], stargazers_count: 10 },
+      { name: 'b', topics: ['neovim'], stargazers_count: 5 },
+      { name: 'c', topics: ['retro-gaming'], stargazers_count: 3 },
+    ];
+    const grouped = groupReposBySection(repos);
+    assert.equal(grouped['ai-tooling'].length, 1);
+    assert.equal(grouped['ai-tooling'][0].name, 'a');
+    assert.equal(grouped['retro-gaming'].length, 1);
+    assert.equal(grouped['neovim'].length, 1);
+  });
+
+  it('sorts each section by stars descending', () => {
+    const repos = [
+      { name: 'low', topics: ['neovim'], stargazers_count: 2 },
+      { name: 'high', topics: ['neovim'], stargazers_count: 50 },
+      { name: 'mid', topics: ['neovim'], stargazers_count: 10 },
+    ];
+    const grouped = groupReposBySection(repos);
+    assert.deepEqual(
+      grouped['neovim'].map((r) => r.name),
+      ['high', 'mid', 'low'],
+    );
+  });
+
+  it('assigns multi-tag repo to first matching section by priority', () => {
+    const repos = [
+      { name: 'multi', topics: ['neovim', 'ai-tooling'], stargazers_count: 1 },
+    ];
+    const grouped = groupReposBySection(repos);
+    assert.equal(grouped['ai-tooling'].length, 1);
+    assert.equal(grouped['neovim'].length, 0);
+  });
+
+  it('excludes repos with no recognized topic', () => {
+    const repos = [
+      { name: 'untagged', topics: ['random'], stargazers_count: 100 },
+      { name: 'notopics', topics: [], stargazers_count: 50 },
+    ];
+    const grouped = groupReposBySection(repos);
+    assert.equal(grouped['ai-tooling'].length, 0);
+    assert.equal(grouped['retro-gaming'].length, 0);
+    assert.equal(grouped['neovim'].length, 0);
   });
 });

@@ -18,4 +18,23 @@ function buildRepoCard(repo) {
   return lines.join('\n');
 }
 
-module.exports = { buildRepoCard, SECTION_MAP, STAR_BADGE_LOGO };
+function groupReposBySection(repos) {
+  const grouped = {};
+  for (const section of SECTION_MAP) {
+    grouped[section.tag] = [];
+  }
+  for (const repo of repos) {
+    for (const section of SECTION_MAP) {
+      if (repo.topics && repo.topics.includes(section.tag)) {
+        grouped[section.tag].push(repo);
+        break;
+      }
+    }
+  }
+  for (const tag of Object.keys(grouped)) {
+    grouped[tag].sort((a, b) => b.stargazers_count - a.stargazers_count);
+  }
+  return grouped;
+}
+
+module.exports = { buildRepoCard, groupReposBySection, SECTION_MAP, STAR_BADGE_LOGO };
