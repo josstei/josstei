@@ -37,4 +37,10 @@ function groupReposBySection(repos) {
   return grouped;
 }
 
-module.exports = { buildRepoCard, groupReposBySection, SECTION_MAP, STAR_BADGE_LOGO };
+function buildSection(title, repos) {
+  if (repos.length === 0) return '';
+  const rows = repos.map(buildRepoCard).join('\n');
+  return `## ${title}\n\n<table>\n${rows}\n</table>`;
+}
+
+module.exports = { buildRepoCard, buildSection, groupReposBySection, SECTION_MAP, STAR_BADGE_LOGO };

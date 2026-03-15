@@ -2,6 +2,7 @@ const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const { buildRepoCard } = require('./generate-readme.js');
 const { groupReposBySection } = require('./generate-readme.js');
+const { buildSection } = require('./generate-readme.js');
 
 describe('buildRepoCard', () => {
   it('renders a card with description', () => {
@@ -80,5 +81,33 @@ describe('groupReposBySection', () => {
     assert.equal(grouped['ai-tooling'].length, 0);
     assert.equal(grouped['retro-gaming'].length, 0);
     assert.equal(grouped['neovim'].length, 0);
+  });
+});
+
+describe('buildSection', () => {
+  it('renders a section with heading and table', () => {
+    const repos = [
+      { name: 'repo-a', description: 'Description A.', stargazers_count: 10 },
+    ];
+    const html = buildSection('My Section', repos);
+    assert.ok(html.startsWith('## My Section\n\n<table>'));
+    assert.ok(html.endsWith('</table>'));
+    assert.ok(html.includes('<tr><td>'));
+    assert.ok(html.includes('repo-a'));
+  });
+
+  it('returns empty string for empty repos array', () => {
+    const html = buildSection('Empty', []);
+    assert.equal(html, '');
+  });
+
+  it('renders multiple repos as separate rows', () => {
+    const repos = [
+      { name: 'first', description: 'First.', stargazers_count: 20 },
+      { name: 'second', description: 'Second.', stargazers_count: 10 },
+    ];
+    const html = buildSection('Test', repos);
+    const trCount = (html.match(/<tr><td>/g) || []).length;
+    assert.equal(trCount, 2);
   });
 });
