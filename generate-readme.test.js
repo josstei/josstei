@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const { buildRepoCard } = require('./generate-readme.js');
 const { groupReposBySection } = require('./generate-readme.js');
 const { buildSection } = require('./generate-readme.js');
+const { buildReadme } = require('./generate-readme.js');
 
 describe('buildRepoCard', () => {
   it('renders a card with description', () => {
@@ -109,5 +110,55 @@ describe('buildSection', () => {
     const html = buildSection('Test', repos);
     const trCount = (html.match(/<tr><td>/g) || []).length;
     assert.equal(trCount, 2);
+  });
+});
+
+describe('buildReadme', () => {
+  it('includes static header and footer', () => {
+    const grouped = {
+      'ai-tooling': [],
+      'retro-gaming': [],
+      'neovim': [],
+    };
+    const readme = buildReadme(grouped);
+    assert.ok(readme.includes('capsule-render.vercel.app'));
+    assert.ok(readme.includes('skillicons.dev'));
+    assert.ok(readme.includes('Currently building'));
+    assert.ok(readme.includes('## Stats'));
+    assert.ok(readme.includes('streak-stats.demolab.com'));
+  });
+
+  it('includes dynamic sections in correct order', () => {
+    const grouped = {
+      'ai-tooling': [{ name: 'ai-repo', description: 'AI tool.', stargazers_count: 10 }],
+      'retro-gaming': [{ name: 'retro-repo', description: 'Retro game.', stargazers_count: 5 }],
+      'neovim': [{ name: 'nvim-repo', description: 'Neovim plugin.', stargazers_count: 1 }],
+    };
+    const readme = buildReadme(grouped);
+    const aiPos = readme.indexOf('## AI & Agentic Tooling');
+    const retroPos = readme.indexOf('## Retro Gaming');
+    const nvimPos = readme.indexOf('## Neovim');
+    const statsPos = readme.indexOf('## Stats');
+    assert.ok(aiPos < retroPos);
+    assert.ok(retroPos < nvimPos);
+    assert.ok(nvimPos < statsPos);
+  });
+
+  it('omits empty sections', () => {
+    const grouped = {
+      'ai-tooling': [{ name: 'ai-repo', description: 'AI.', stargazers_count: 1 }],
+      'retro-gaming': [],
+      'neovim': [],
+    };
+    const readme = buildReadme(grouped);
+    assert.ok(readme.includes('## AI & Agentic Tooling'));
+    assert.ok(!readme.includes('## Retro Gaming'));
+    assert.ok(!readme.includes('## Neovim'));
+  });
+
+  it('ends with a trailing newline', () => {
+    const grouped = { 'ai-tooling': [], 'retro-gaming': [], 'neovim': [] };
+    const readme = buildReadme(grouped);
+    assert.ok(readme.endsWith('\n'));
   });
 });
