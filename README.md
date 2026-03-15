@@ -24,21 +24,18 @@ I love building applications and tooling that others can enjoy and use — from 
 
 ## AI & Agentic Tooling
 
-### [maestro-gemini](https://github.com/josstei/maestro-gemini) ![Stars](https://img.shields.io/github/stars/josstei/maestro-gemini?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Multi-agent orchestration platform for Gemini CLI. 12 specialized subagents coordinated by a TechLead orchestrator through structured design, planning, and execution workflows. Supports parallel dispatch of independent phases and session persistence.
-
-### [argus-claude](https://github.com/josstei/argus-claude) ![Stars](https://img.shields.io/github/stars/josstei/argus-claude?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Multi-agent code quality and architecture review plugin for Claude Code. Runs specialized agents in parallel covering architecture, naming, dependency injection, dead code, and error handling. Cross-validates findings across multiple LLMs.
+<table>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/maestro-gemini?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/maestro-gemini">maestro-gemini</a></strong> — Multi-agent orchestration platform for Gemini CLI. 12 specialized subagents coordinated by a TechLead orchestrator through structured design, planning, and execution workflows. Supports parallel dispatch of independent phases and session persistence.</td></tr>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/argus-claude?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/argus-claude">argus-claude</a></strong> — Multi-agent code quality and architecture review plugin for Claude Code. Runs specialized agents in parallel covering architecture, naming, dependency injection, dead code, and error handling. Cross-validates findings across multiple LLMs.</td></tr>
+</table>
 
 ---
 
 ## Retro Gaming
 
-### [prismgb-app](https://github.com/josstei/prismgb-app) ![Stars](https://img.shields.io/github/stars/josstei/prismgb-app?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Companion desktop app for the ModRetro Chromatic. Real-time screen capture, video streaming, and GPU-accelerated rendering. Built with Electron, targeting Windows, macOS, and Linux.
+<table>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/prismgb-app?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/prismgb-app">prismgb-app</a></strong> — Companion desktop app for the ModRetro Chromatic. Real-time screen capture, video streaming, and GPU-accelerated rendering. Built with Electron, targeting Windows, macOS, and Linux.</td></tr>
+</table>
 
 ---
 
@@ -46,31 +43,19 @@ Companion desktop app for the ModRetro Chromatic. Real-time screen capture, vide
 
 ### Colorschemes
 
-**[nami.nvim](https://github.com/josstei/nami.nvim)** ![Stars](https://img.shields.io/github/stars/josstei/nami.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Ocean-sunset colorscheme — deep blue-black backgrounds with vibrant teal and coral accents.
-
-**[fathom.nvim](https://github.com/josstei/fathom.nvim)** ![Stars](https://img.shields.io/github/stars/josstei/fathom.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Deep ocean dark colorscheme — rich blues and purple accents.
-
-**[voidpulse.nvim](https://github.com/josstei/voidpulse.nvim)** ![Stars](https://img.shields.io/github/stars/josstei/voidpulse.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Deep space-inspired dark theme.
+<table>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/nami.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/nami.nvim">nami.nvim</a></strong> — Ocean-sunset colorscheme — deep blue-black backgrounds with vibrant teal and coral accents.</td></tr>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/fathom.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/fathom.nvim">fathom.nvim</a></strong> — Deep ocean dark colorscheme — rich blues and purple accents.</td></tr>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/voidpulse.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/voidpulse.nvim">voidpulse.nvim</a></strong> — Deep space-inspired dark theme.</td></tr>
+</table>
 
 ### Plugins
 
-**[whisk.nvim](https://github.com/josstei/whisk.nvim)** ![Stars](https://img.shields.io/github/stars/josstei/whisk.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Smooth, high-performance motion and scrolling animations for Neovim. 60fps fluid cursor moves, word jumps, and viewport scrolling, all in one plugin.
-
-**[quill.nvim](https://github.com/josstei/quill.nvim)** ![Stars](https://img.shields.io/github/stars/josstei/quill.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Intelligent comment toggling with TreeSitter context detection. 47 built-in languages, full operator support, 4 text objects, debug regions, and trailing comment alignment.
-
-**[vim-easyops](https://github.com/josstei/vim-easyops)** ![Stars](https://img.shields.io/github/stars/josstei/vim-easyops?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=)
-
-Unified task launcher for file management, project ops, and Git workflows within Vim. Auto-detects project type and loads context-aware menus for Git, Java, Rust, npm, Maven, and more.
+<table>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/whisk.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/whisk.nvim">whisk.nvim</a></strong> — Smooth, high-performance motion and scrolling animations for Neovim. 60fps fluid cursor moves, word jumps, and viewport scrolling, all in one plugin.</td></tr>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/quill.nvim?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/quill.nvim">quill.nvim</a></strong> — Intelligent comment toggling with TreeSitter context detection. 47 built-in languages, full operator support, 4 text objects, debug regions, and trailing comment alignment.</td></tr>
+<tr><td><img src="https://img.shields.io/github/stars/josstei/vim-easyops?style=flat-square&label=%20&color=0E1830&labelColor=0E1830&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" /></td><td><strong><a href="https://github.com/josstei/vim-easyops">vim-easyops</a></strong> — Unified task launcher for file management, project ops, and Git workflows within Vim. Auto-detects project type and loads context-aware menus for Git, Java, Rust, npm, Maven, and more.</td></tr>
+</table>
 
 ---
 
