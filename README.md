@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:050A14,50:5E81F4,100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=C8C8E0&fontAlignY=35&desc=@josstei_dev&descSize=16&descColor=A8A8C8&descAlignY=55&animation=fadeIn" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:5E81F4,100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=050A14&fontAlignY=35&desc=@josstei_dev&descSize=16&descColor=0E1830&descAlignY=55&animation=fadeIn" width="100%" alt="Header" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:050A14%2C50:5E81F4%2C100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=C8C8E0&fontAlignY=35&desc=@josstei_dev&descSize=16&descColor=A8A8C8&descAlignY=55&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff%2C50:5E81F4%2C100:7C3AED&height=200&text=I'm%20Josstei&fontSize=50&fontColor=050A14&fontAlignY=35&desc=@josstei_dev&descSize=16&descColor=0E1830&descAlignY=55&animation=fadeIn" width="100%" alt="Header" />
 </picture>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=lua,js,ts,java,react,spring,maven,mysql&theme=dark&perline=8" width="410" alt="Tech Stack Row 1" /><br/>
@@ -83,6 +83,6 @@ Unified task launcher for file management, project ops, and Git workflows within
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:050A14,50:5E81F4,100:7C3AED&height=120&section=footer&reversal=true" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:5E81F4,100:7C3AED&height=120&section=footer&reversal=true" width="100%" alt="Footer" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:050A14%2C50:5E81F4%2C100:7C3AED&height=120&section=footer&reversal=true" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff%2C50:5E81F4%2C100:7C3AED&height=120&section=footer&reversal=true" width="100%" alt="Footer" />
 </picture>
