@@ -45,21 +45,6 @@ I love building applications and tooling that others can enjoy and use — from 
 
 <table>
 <tr><td>
-  <img src="https://img.shields.io/github/stars/josstei/nami.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
-  <strong><a href="https://github.com/josstei/nami.nvim">nami.nvim</a></strong>
-  <br/>Ocean-sunset colorscheme — deep blue-black backgrounds with vibrant teal and coral accents.
-</td></tr>
-<tr><td>
-  <img src="https://img.shields.io/github/stars/josstei/fathom.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
-  <strong><a href="https://github.com/josstei/fathom.nvim">fathom.nvim</a></strong>
-  <br/>Deep ocean dark colorscheme with rich blues, purple accents, and high contrast syntax highlighting.
-</td></tr>
-<tr><td>
-  <img src="https://img.shields.io/github/stars/josstei/voidpulse.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
-  <strong><a href="https://github.com/josstei/voidpulse.nvim">voidpulse.nvim</a></strong>
-  <br/>Deep space-inspired dark theme with muted tones and neon flashes for focused editing.
-</td></tr>
-<tr><td>
   <img src="https://img.shields.io/github/stars/josstei/whisk.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/whisk.nvim">whisk.nvim</a></strong>
   <br/>Smooth, high-performance motion and scrolling animations for Neovim. 60fps fluid cursor moves, word jumps, and viewport scrolling, all in one plugin.
@@ -68,6 +53,21 @@ I love building applications and tooling that others can enjoy and use — from 
   <img src="https://img.shields.io/github/stars/josstei/quill.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/quill.nvim">quill.nvim</a></strong>
   <br/>Intelligent comment toggling with TreeSitter context detection, 47 built-in languages, and full operator support.
+</td></tr>
+<tr><td>
+  <img src="https://img.shields.io/github/stars/josstei/nami.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
+  <strong><a href="https://github.com/josstei/nami.nvim">nami.nvim</a></strong>
+  <br/>Ocean-sunset colorscheme — deep blue-black backgrounds with vibrant teal and coral accents.
+</td></tr>
+<tr><td>
+  <img src="https://img.shields.io/github/stars/josstei/voidpulse.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
+  <strong><a href="https://github.com/josstei/voidpulse.nvim">voidpulse.nvim</a></strong>
+  <br/>Deep space-inspired dark theme with muted tones and neon flashes for focused editing.
+</td></tr>
+<tr><td>
+  <img src="https://img.shields.io/github/stars/josstei/fathom.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
+  <strong><a href="https://github.com/josstei/fathom.nvim">fathom.nvim</a></strong>
+  <br/>Deep ocean dark colorscheme with rich blues, purple accents, and high contrast syntax highlighting.
 </td></tr>
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/vim-easyops?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
