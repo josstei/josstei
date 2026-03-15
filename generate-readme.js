@@ -82,4 +82,40 @@ function buildReadme(groupedRepos) {
   return parts.join('\n\n') + '\n';
 }
 
+async function fetchRepos() {
+  const repos = [];
+  let page = 1;
+  while (true) {
+    const url = `https://api.github.com/users/josstei/repos?type=owner&visibility=public&per_page=100&page=${page}`;
+    const res = await fetch(url, {
+      headers: {
+        Accept: 'application/vnd.github+json',
+        ...(process.env.GITHUB_TOKEN && {
+          Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        }),
+      },
+    });
+    if (!res.ok) throw new Error(`GitHub API error: ${res.status}`);
+    const data = await res.json();
+    if (data.length === 0) break;
+    repos.push(...data);
+    if (data.length < 100) break;
+    page++;
+  }
+  return repos;
+}
+
 module.exports = { buildRepoCard, buildSection, buildReadme, groupReposBySection, SECTION_MAP, STAR_BADGE_LOGO };
+
+if (require.main === module) {
+  (async () => {
+    const repos = await fetchRepos();
+    const grouped = groupReposBySection(repos);
+    const readme = buildReadme(grouped);
+    require('node:fs').writeFileSync('README.md', readme);
+    console.log('README.md generated.');
+  })().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
