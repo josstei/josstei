@@ -1,9 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
-const { buildRepoCard } = require('./generate-readme.js');
-const { groupReposBySection } = require('./generate-readme.js');
-const { buildSection } = require('./generate-readme.js');
-const { buildReadme } = require('./generate-readme.js');
+const { buildRepoCard, groupReposBySection, buildSection, buildReadme } = require('./generate-readme.js');
 
 describe('buildRepoCard', () => {
   it('renders a card with description', () => {

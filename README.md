@@ -22,12 +22,12 @@ I love building applications and tooling that others can enjoy and use — from 
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/maestro-gemini?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/maestro-gemini">maestro-gemini</a></strong>
-  <br/>Multi-agent orchestration platform for Gemini CLI. 12 specialized subagents coordinated by a TechLead orchestrator through structured design, planning, and execution workflows.
+  <br/>Turn Gemini CLI into a multi-agent platform — 12 specialized subagents, parallel dispatch, 4-phase orchestration, and standalone dev tools for code review, debugging, security, and performance
 </td></tr>
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/argus-claude?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/argus-claude">argus-claude</a></strong>
-  <br/>Multi-agent code quality and architecture review plugin for Claude Code. Runs specialized agents in parallel covering architecture, naming, dependency injection, dead code, and error handling.
+  <br/>Argus - Multi-agent code quality & architecture review plugin for Claude Code. Runs parallel analysis agents with cross-validation to catch real issues, not false positives.
 </td></tr>
 </table>
 
@@ -37,7 +37,7 @@ I love building applications and tooling that others can enjoy and use — from 
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/prismgb-app?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/prismgb-app">prismgb-app</a></strong>
-  <br/>Companion desktop app for the ModRetro Chromatic with real-time screen capture, video streaming, and GPU-accelerated rendering.
+  <br/>An open-source companion app for ModRetro Chromatic. Play on any screen, relive your best moments, never lose a secret, and make it look perfect
 </td></tr>
 </table>
 
@@ -47,7 +47,12 @@ I love building applications and tooling that others can enjoy and use — from 
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/whisk.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/whisk.nvim">whisk.nvim</a></strong>
-  <br/>Smooth, high-performance motion and scrolling animations for Neovim. 60fps fluid cursor moves, word jumps, and viewport scrolling, all in one plugin.
+  <br/>Smooth, high‑performance motion & scrolling animations — 60fps fluid cursor moves, word jumps, and viewport scrolling, all in one.
+</td></tr>
+<tr><td>
+  <img src="https://img.shields.io/github/stars/josstei/nami.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
+  <strong><a href="https://github.com/josstei/nami.nvim">nami.nvim</a></strong>
+  <br/>Ocean-sunset colorscheme with deep blue-black backgrounds and vibrant teal, coral, and orange accents.
 </td></tr>
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/quill.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
@@ -55,24 +60,19 @@ I love building applications and tooling that others can enjoy and use — from 
   <br/>Intelligent comment toggling with TreeSitter context detection, 47 built-in languages, and full operator support.
 </td></tr>
 <tr><td>
-  <img src="https://img.shields.io/github/stars/josstei/nami.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
-  <strong><a href="https://github.com/josstei/nami.nvim">nami.nvim</a></strong>
-  <br/>Ocean-sunset colorscheme — deep blue-black backgrounds with vibrant teal and coral accents.
-</td></tr>
-<tr><td>
   <img src="https://img.shields.io/github/stars/josstei/voidpulse.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/voidpulse.nvim">voidpulse.nvim</a></strong>
-  <br/>Deep space-inspired dark theme with muted tones and neon flashes for focused editing.
+  <br/>Voidpulse is a deep space–inspired dark theme for Neovim.
 </td></tr>
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/fathom.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/fathom.nvim">fathom.nvim</a></strong>
-  <br/>Deep ocean dark colorscheme with rich blues, purple accents, and high contrast syntax highlighting.
+  <br/>A deep ocean dark colorscheme featuring rich blues and purple accents inspired by the depths of the abyss
 </td></tr>
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/vim-easyops?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/vim-easyops">vim-easyops</a></strong>
-  <br/>Unified task launcher for file management, project ops, and Git workflows with auto-detected project-type menus.
+  <br/>Vim/Neovim plugin that delivers a unified, extensible menu for common development tasks—making it painless to work with files, projects, and version control within Vim.
 </td></tr>
 </table>
 
