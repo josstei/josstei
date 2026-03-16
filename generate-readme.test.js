@@ -1,6 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
-const { buildRepoCard, groupReposBySection, buildSection, buildReadme } = require('./generate-readme.js');
+const { buildRepoCard, groupReposBySection, buildSection, buildReadme, escapeHtml } = require('./generate-readme.js');
 
 describe('buildRepoCard', () => {
   it('renders a card with description', () => {
@@ -21,6 +21,15 @@ describe('buildRepoCard', () => {
     const html = buildRepoCard(repo);
     assert.ok(html.includes('no-desc'));
     assert.ok(!html.includes('<br/>'));
+  });
+
+  it('escapes HTML in description and name', () => {
+    const repo = { name: 'test-repo', description: 'Uses <script> & "quotes"' };
+    const html = buildRepoCard(repo);
+    assert.ok(html.includes('&lt;script&gt;'));
+    assert.ok(html.includes('&amp;'));
+    assert.ok(html.includes('&quot;quotes&quot;'));
+    assert.ok(!html.includes('<script>'));
   });
 
   it('includes the gold star badge with correct parameters', () => {

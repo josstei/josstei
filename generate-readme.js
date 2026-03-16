@@ -7,12 +7,17 @@ const SECTION_MAP = [
   { tag: 'neovim', title: 'Neovim' },
 ];
 
+function escapeHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 function buildRepoCard(repo) {
+  const name = escapeHtml(repo.name);
   const badge = `  <img src="https://img.shields.io/github/stars/josstei/${repo.name}?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,${STAR_BADGE_LOGO}" alt="Stars" />&nbsp;`;
-  const link = `  <strong><a href="https://github.com/josstei/${repo.name}">${repo.name}</a></strong>`;
+  const link = `  <strong><a href="https://github.com/josstei/${repo.name}">${name}</a></strong>`;
   const lines = ['<tr><td>', badge, link];
   if (repo.description) {
-    lines.push(`  <br/>${repo.description}`);
+    lines.push(`  <br/>${escapeHtml(repo.description)}`);
   }
   lines.push('</td></tr>');
   return lines.join('\n');
@@ -84,9 +89,8 @@ function buildReadme(groupedRepos) {
 
 async function fetchRepos() {
   const repos = [];
-  let page = 1;
-  while (true) {
-    const url = `https://api.github.com/users/josstei/repos?type=owner&visibility=public&per_page=100&page=${page}`;
+  let url = 'https://api.github.com/users/josstei/repos?type=owner&visibility=public&per_page=100';
+  while (url) {
     const res = await fetch(url, {
       headers: {
         Accept: 'application/vnd.github+json',
@@ -97,15 +101,15 @@ async function fetchRepos() {
     });
     if (!res.ok) throw new Error(`GitHub API error: ${res.status}`);
     const data = await res.json();
-    if (data.length === 0) break;
     repos.push(...data);
-    if (data.length < 100) break;
-    page++;
+    const link = res.headers.get('link') || '';
+    const next = link.match(/<([^>]+)>;\s*rel="next"/);
+    url = next ? next[1] : null;
   }
   return repos;
 }
 
-module.exports = { buildRepoCard, buildSection, buildReadme, groupReposBySection, SECTION_MAP, STAR_BADGE_LOGO };
+module.exports = { buildRepoCard, buildSection, buildReadme, groupReposBySection, escapeHtml, SECTION_MAP, STAR_BADGE_LOGO };
 
 if (require.main === module) {
   (async () => {
