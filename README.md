@@ -14,8 +14,6 @@
 
 I love building applications and tooling that others can enjoy and use — from multi-agent platforms to retro gaming apps to Neovim plugins. I believe software should just work, and that clean, structured design is how you get there: performance, maintainability, and scalability by default.
 
-🔨 Currently building [maestro-gemini](https://github.com/josstei/maestro-gemini) — a multi-agent orchestration platform for Gemini CLI with 12 specialized subagents and parallel dispatch.
-
 ## AI & Agentic Tooling
 
 <table>
