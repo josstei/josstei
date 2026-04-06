@@ -50,6 +50,11 @@ I love building applications and tooling that others can enjoy and use — from 
   <br/>Smooth, high‑performance motion &amp; scrolling animations — 60fps fluid cursor moves, word jumps, and viewport scrolling, all in one.
 </td></tr>
 <tr><td>
+  <img src="https://img.shields.io/github/stars/josstei/voidpulse.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
+  <strong><a href="https://github.com/josstei/voidpulse.nvim">voidpulse.nvim</a></strong>
+  <br/>Voidpulse is a deep space–inspired dark theme for Neovim.
+</td></tr>
+<tr><td>
   <img src="https://img.shields.io/github/stars/josstei/nami.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/nami.nvim">nami.nvim</a></strong>
   <br/>Ocean-sunset colorscheme with deep blue-black backgrounds and vibrant teal, coral, and orange accents.
@@ -58,11 +63,6 @@ I love building applications and tooling that others can enjoy and use — from 
   <img src="https://img.shields.io/github/stars/josstei/quill.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/quill.nvim">quill.nvim</a></strong>
   <br/>Intelligent comment toggling with TreeSitter context detection, 47 built-in languages, and full operator support.
-</td></tr>
-<tr><td>
-  <img src="https://img.shields.io/github/stars/josstei/voidpulse.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
-  <strong><a href="https://github.com/josstei/voidpulse.nvim">voidpulse.nvim</a></strong>
-  <br/>Voidpulse is a deep space–inspired dark theme for Neovim.
 </td></tr>
 <tr><td>
   <img src="https://img.shields.io/github/stars/josstei/fathom.nvim?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
