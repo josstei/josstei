@@ -20,11 +20,6 @@ I love building applications and tooling that others can enjoy and use — from 
 
 <table>
 <tr><td>
-  <img src="https://img.shields.io/github/stars/josstei/maestro-orchestrate?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
-  <strong><a href="https://github.com/josstei/maestro-orchestrate">maestro-orchestrate</a></strong>
-  <br/>Multi-agent orchestration platform for Gemini CLI, Claude Code, and Codex — 22 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools
-</td></tr>
-<tr><td>
   <img src="https://img.shields.io/github/stars/josstei/argus-claude?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/argus-claude">argus-claude</a></strong>
   <br/>Argus - Multi-agent code quality &amp; architecture review plugin for Claude Code. Runs parallel analysis agents with cross-validation to catch real issues, not false positives.
