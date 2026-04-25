@@ -14,7 +14,7 @@
 
 I love building applications and tooling that others can enjoy and use — from multi-agent platforms to retro gaming apps to Neovim plugins. I believe software should just work, and that clean, structured design is how you get there: performance, maintainability, and scalability by default.
 
-🔨 Currently building [maestro-gemini](https://github.com/josstei/maestro-gemini) — a multi-agent orchestration platform for Gemini CLI with 12 specialized subagents and parallel dispatch.
+🔨 Currently building [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) ![Stars](https://img.shields.io/github/stars/josstei/maestro-orchestrate?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI+PHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4=) — a multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code with 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools.
 
 ## AI & Agentic Tooling
 
