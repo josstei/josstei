@@ -64,7 +64,7 @@ const STATIC_HEADER = `<picture>
 
 I love building applications and tooling that others can enjoy and use — from multi-agent platforms to retro gaming apps to Neovim plugins. I believe software should just work, and that clean, structured design is how you get there: performance, maintainability, and scalability by default.
 
-🔨 Currently building [maestro-gemini](https://github.com/josstei/maestro-gemini) — a multi-agent orchestration platform for Gemini CLI with 12 specialized subagents and parallel dispatch.`;
+🔨 Currently building [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate) ![Stars](https://img.shields.io/github/stars/josstei/maestro-orchestrate?style=flat-square&label=stars&color=0E1830&labelColor=050A14&logo=data:image/svg%2Bxml;base64,${STAR_BADGE_LOGO}) — a multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code with 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools.`;
 
 const STATIC_FOOTER = `## Stats
 
