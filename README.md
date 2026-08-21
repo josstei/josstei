@@ -40,7 +40,7 @@ I love building applications and tooling that others can enjoy and use — from 
 
 <table>
 <tr><td>
-  <img src="https://img.shields.io/badge/stars-57-0E1830?style=flat-square&amp;labelColor=050A14&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI%2BPHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4%3D" alt="Stars" />&nbsp;
+  <img src="https://img.shields.io/badge/stars-58-0E1830?style=flat-square&amp;labelColor=050A14&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI%2BPHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4%3D" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/whisk.nvim">whisk.nvim</a></strong>
   <br/>Smooth, high‑performance motion &amp; scrolling animations — 60fps fluid cursor moves, word jumps, and viewport scrolling, all in one.
 </td></tr>
