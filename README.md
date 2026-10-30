@@ -30,7 +30,7 @@ I love building applications and tooling that others can enjoy and use — from 
 
 <table>
 <tr><td>
-  <img src="https://img.shields.io/badge/stars-16-0E1830?style=flat-square&amp;labelColor=050A14&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI%2BPHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4%3D" alt="Stars" />&nbsp;
+  <img src="https://img.shields.io/badge/stars-17-0E1830?style=flat-square&amp;labelColor=050A14&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Q0QTY1NiI%2BPHBhdGggZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDFMMTIgMnoiLz48L3N2Zz4%3D" alt="Stars" />&nbsp;
   <strong><a href="https://github.com/josstei/prismgb-app">prismgb-app</a></strong>
   <br/>An open-source companion app for ModRetro Chromatic. Play on any screen, relive your best moments, never lose a secret, and make it look perfect
 </td></tr>
